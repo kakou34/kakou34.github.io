@@ -291,6 +291,11 @@ footer {
 	text-decoration: none;
 }
 
+#resetBtn {
+	text-decoration: none;
+	color: black;
+}
+
 @media (max-width: 750px) {
 	.moviedesc{
 		height: auto;
