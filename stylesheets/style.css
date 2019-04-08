@@ -1,0 +1,338 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color:  #D1E8E2  ;
+
+}
+
+.navbar{
+	background-color:  #116466;
+	padding: 0.5% 0;
+	font-size: 1.2em;
+
+}
+
+.navbar-default .navbar-nav li a {
+	color:   #D1E8E2 ;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color:  white;
+}
+
+
+.navbar-default .navbar-nav li a.active {
+	color:  white;
+	font-size: 1.4em;
+}
+
+#home {
+	background: url(https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%; 
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.heads {
+	display: table;
+	height: 50%; 
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#headfilm {
+	background: url(https://www.pptgrounds.com/wp-content/uploads/2012/08/Blue-movie-film-strip-backgrounds.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#headbooks {
+	background: url(https://www.edithwharton.org/wp-content/uploads/2013/01/header-books.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#headmusic{
+	background: url(https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#headlinks{
+	background: url(http://sfwallpaper.com/images/computer-background-photos-2.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#headcontact{
+	background: url(http://woodpeckerframes.com/wp-content/uploads/2018/06/contact_banner.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#headreg{
+	background: url(https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	text-shadow: transparent;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	padding-left: 30%
+}
+.landing-text h3 {
+	font-size: 250%;
+	font-weight: 350;
+	padding-left: 30%
+}
+.landing-text h4 {
+	font-size: 250%;
+	font-weight: 350;
+}
+
+.landing-text p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 350;
+	font-size: 150%;
+}
+
+
+.padding {
+	padding: 40px 0px;
+}
+
+table tr:nth-child(odd) {
+    background: #116466;
+}
+
+table tr:nth-child(even) {
+    background: #D9B08C;
+}
+
+.table td p {
+	color: #2C3531;
+	font-size: 125%;
+	
+}
+
+#myPic {
+	margin-top: 40px;
+	border-width: 5px;
+	border-color: #D9B08C;
+}
+
+#abtme {
+	background-color: #D9B08C;
+    margin: 10px;
+}
+#abtme p {
+	color: #2C3531;
+}
+
+.sep {
+
+	height: 50px;
+}
+
+
+
+#fixed {
+	background: url(https://gravitywerks.com/wp-content/uploads/2017/02/computer-blue-opacity-background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 40%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.moviedesc {
+	overflow: auto;
+	height: 315px;
+	color: #2C3531;
+	background-color: #D9B08C;
+}
+.contactForm {
+	border-radius: 10px;
+	color: #2C3531;
+	background-color: #D9B08C;
+}
+
+.lyrics {
+	overflow: auto;
+	height: 315px;
+	color: #2C3531;
+	background-color: #D9B08C;
+}
+
+.regForm {
+	padding: 20px;
+	margin: 10px;
+    border-radius: 10px;
+	color: #2C3531;
+	background-color: #D9B08C;
+}
+.regForm textarea{
+		width: 80%;
+}
+
+
+.moviedesc a {
+	vertical-align: bottom;
+
+}
+
+.moviedesc ul {
+	text-align: left;
+	list-style-type: circle;
+
+}
+
+
+iframe {
+	width: 90%;
+	height: 315px;
+}
+
+.bookpic {
+	width: 210px;
+	height: 315px;
+}
+
+.artistpic {
+	width: 225px;
+	height: 250px;
+}
+
+hr {
+	border-color: #2C3531;
+	border-color: 5px;
+}
+
+
+.linkCollect {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 7.5px;
+	background-color: #116466;
+}
+.linkCollect h4 {
+	background-color: #116466;
+	color:  #D1E8E2;
+}
+
+.linkCollect ul {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	list-style-type: none;
+}
+.linkCollect li:nth-child(odd) {
+	font-weight: bold;
+	padding: 5px;
+	background-color: #FFCB9A;
+	color: #2C3531;
+}
+.linkCollect li:nth-child(even) {
+	font-weight: bold;
+	padding: 5px;
+	background-color: #D9B08C;
+	color: #2C3531;
+}
+
+.linkCollect li a:link {
+	color: #2C3531;
+}
+.linkCollect li a:hover {
+	color: #D9B08C;
+}
+
+.linkCollect li a:visited {
+	text-decoration:none;
+	color: #116466;
+}
+
+.cntct .fab {
+   padding: 5px  15px ;
+	font-size: 30px;
+}
+
+.cntct .fab:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.cntct > a:link {
+	text-decoration: none;
+    color: #116466;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+
+
+
+footer {
+	width: 100% ;
+	padding: 1% 1% 2% 1% ;
+	background-color: #116466;
+	color: #FFF;
+}
+
+.fas {
+	padding: 15px;
+	font-size: 25px;
+	color:  #D1E8E2;
+}
+
+.fas:hover {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 750px) {
+	.moviedesc{
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.bookpic {
+		padding-bottom: 10px;
+	}
+
+	.regForm textarea{
+		width: 90%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
