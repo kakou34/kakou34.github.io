@@ -1,23 +1,16 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-color:  #D1E8E2  ;
-
 }
 
 .navbar{
-	background-color:  #116466;
+	background-color: black;
 	padding: 0.5% 0;
 	font-size: 1.2em;
-
 }
 
 .navbar-default .navbar-nav li a {
-	color:   #D1E8E2 ;
-}
-
-.navbar-default .navbar-nav li a:hover {
-	color:  white;
+	color:#badfd5 ;
 }
 
 
@@ -25,14 +18,18 @@ html, body {
 	color:  white;
 	font-size: 1.4em;
 }
+.navbar-default .navbar-nav li a:hover {
+	color:  #e9c1aa;
+}
 
 #home {
-	background: url(https://cdn.pixabay.com/photo/2019/03/01/09/38/universe-4027609_960_720.jpg) no-repeat center center fixed;
+	background: url("../img/home.jpg") no-repeat center center fixed;
 	display: table;
 	height: 100%; 
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	color: white;
 }
 .heads {
 	margin-top: 50px;
@@ -41,30 +38,33 @@ html, body {
 	position: relative;
 	width: 100%;
 	background-size: cover;
+
 }
 
 #headfilm {
-	background: url(https://www.pptgrounds.com/wp-content/uploads/2012/08/Blue-movie-film-strip-backgrounds.jpg) no-repeat center center fixed;
+	background: url("../img/movies1.jpg") no-repeat center center fixed;
 	background-size: cover;
+
 }
 #headbooks {
-	background: url(https://www.edithwharton.org/wp-content/uploads/2013/01/header-books.jpg) no-repeat center center fixed;
+	background: url("../img/books.jpg") no-repeat center center fixed;
 	background-size: cover;
+	
 }
 #headmusic{
-	background: url(https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg) no-repeat center center fixed;
+	background: url("../img/music1.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 #headlinks{
-	background: url(http://sfwallpaper.com/images/computer-background-photos-2.jpg) no-repeat center center fixed;
+	background: url("../img/links.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 #headcontact{
-	background: url(http://woodpeckerframes.com/wp-content/uploads/2018/06/contact_banner.jpg) no-repeat center center fixed;
+	background: url("../img/contact.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 #headreg{
-	background: url(https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+	background: url("../img/register.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 .landing-text {
@@ -73,46 +73,54 @@ html, body {
 	vertical-align: middle;
 	color: white;
 	text-shadow: transparent;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	
 }
 .landing-text h1 {
 	font-size: 500%;
 	font-weight: 700;
+	padding-right: 20%;
+	color: black;
 	
 }
 .landing-text h3 {
 	font-size: 250%;
 	font-weight: 350;
-	
+	padding-right: 20%;
+	color: black;
 }
 .landing-text h4 {
-	font-size: 250%;
+	font-size: 350%;
 	font-weight: 350;
 }
 
 .landing-text p {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
 	font-weight: 350;
 	font-size: 150%;
+	color: black;
 }
 
 
 .padding {
 	padding: 40px 0px;
 }
+table{
+	border-style: hidden;
+	border-radius: 5px;
+}
 
 table tr:nth-child(odd) {
-    background: #116466;
+    background:#e9c1aa;
 }
 
 table tr:nth-child(even) {
-    background: #D9B08C;
+    background: #badfd5;
 }
 
 .table td p {
-	color: #2C3531;
+	color: black;
 	font-size: 125%;
 	
 }
@@ -121,26 +129,26 @@ table tr:nth-child(even) {
 	border-style: solid;
 	margin-top: 40px;
 	border-width: 5px;
-	border-color: #D9B08C;
+	border-color: #e9c1aa;
 }
 
 #abtme {
-	background-color: #D9B08C;
+	background-color: #badfd5;
     margin: 10px;
+    border-style: hidden;
+    border-radius: 5px;
 }
-#abtme p {
-	color: #2C3531;
+#abtme p, h4 {
+	color: black;
 }
+
 
 .sep {
-
-	height: 50px;
+	height: 40px;
 }
 
-
-
 #fixed {
-	background: url(https://gravitywerks.com/wp-content/uploads/2017/02/computer-blue-opacity-background.jpg) no-repeat center center fixed;
+	background: url("../img/fixed.jpg") no-repeat center center fixed;
 	display: table;
 	height: 40%;
 	position: relative;
@@ -151,15 +159,15 @@ table tr:nth-child(even) {
 .moviedesc {
 	overflow: auto;
 	height: 315px;
-	color: #2C3531;
-	background-color: #D9B08C;
+	color: black;
+	background-color: #badfd5;
 }
 .contactForm {
 	border-style: hidden;
 	padding: 5px;
 	border-radius: 10px;
-	color: #2C3531;
-	background-color: #D9B08C;
+	color: black;
+	background-color: #badfd5;
 }
 
 .contactForm form{
@@ -169,8 +177,8 @@ table tr:nth-child(even) {
 .lyrics {
 	overflow: auto;
 	height: 315px;
-	color: #2C3531;
-	background-color: #D9B08C;
+	color: black;
+	background-color: #badfd5;
 }
 
 .regForm {
@@ -178,8 +186,8 @@ table tr:nth-child(even) {
 	padding: 20px;
 	margin: 10px;
     border-radius: 10px;
-	color: #2C3531;
-	background-color: #D9B08C;
+	color: black;
+	background-color: #badfd5;
 }
 .regForm textarea{
 		width: 80%;
@@ -215,21 +223,21 @@ iframe {
 
 hr {
 	border-style: solid;
-	border-color: #2C3531;
-	border-color: 5px;
+	border-color: black;
+	border-color: 1px;
 }
 
 
 .linkCollect {
-	border-style: solid;
 	margin: 5px;
 	padding: 5px;
+	border-style: solid;
 	border-radius: 7.5px;
-	background-color: #116466;
+	background-color: #badfd5;
 }
 .linkCollect h4 {
-	background-color: #116466;
-	color:  #D1E8E2;
+	background-color:#badfd5;
+	color:  black;
 }
 
 .linkCollect ul {
@@ -241,28 +249,28 @@ hr {
 .linkCollect li:nth-child(odd) {
 	font-weight: bold;
 	padding: 5px;
-	background-color: #FFCB9A;
-	color: #2C3531;
+	background-color: #e9c1aa;
+	color: black;
 }
 .linkCollect li:nth-child(even) {
 	font-weight: bold;
 	padding: 5px;
-	background-color: #D9B08C;
-	color: #2C3531;
+	background-color: #fae0da;
+	color: black;
 }
 
 .linkCollect li a:link {
-	color: #2C3531;
+	color: black;
 }
-
 
 .linkCollect li a:visited {
 	text-decoration:none;
-	color: #116466;
+	color: #1aa58e;
 }
 .linkCollect li a:hover {
-	color: #D9B08C;
+	color: #badfd5;
 }
+
 
 .cntct .fab {
    padding: 5px  15px ;
@@ -271,7 +279,7 @@ hr {
 }
 
 .cntct .fab:hover {
-	color: white;
+	color: #badfd5;
 	text-decoration: none;
 }
 
@@ -289,18 +297,17 @@ hr {
 footer {
 	width: 100% ;
 	padding: 1% 1% 2% 1% ;
-	background-color: #116466;
-	color: #FFF;
+	background-color: black;
 }
 
 .fas {
 	padding: 15px;
 	font-size: 25px;
-	color:  #D1E8E2;
+	color:  #badfd5;
 }
 
 .fas:hover {
-	color: white;
+	color: #e9c1aa;
 	text-decoration: none;
 }
 
@@ -308,15 +315,24 @@ footer {
 	text-decoration: none;
 	color: black;
 }
+@media(min-width: 751px){
+	#myPic {
+		height: 300px;
+		width: 450px;
+	}
+}
 
 @media (max-width: 750px) {
 	.landing-text h1 {
-		padding: 0;
+		color: black;
+	padding: 0;
 	font-size: 300%;
 	font-weight: 350;
 	
 }
 .landing-text h3 {
+
+	color: black;
 	padding: 0;
 	font-size: 150%;
 	font-weight: 175;
@@ -336,8 +352,8 @@ footer {
 	.lyrics {
 	overflow: auto;
 	height: 315px;
-	color: #2C3531;
-	background-color: #D9B08C;
+	color: black;
+	background-color: #badfd5;
 	margin: 20px;
 }
 .contactForm{
