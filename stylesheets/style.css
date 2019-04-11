@@ -10,7 +10,7 @@ html, body {
 }
 
 .navbar-default .navbar-nav li a {
-	color:#badfd5 ;
+	color:#78d4d4 ;
 }
 
 
@@ -19,11 +19,11 @@ html, body {
 	font-size: 1.4em;
 }
 .navbar-default .navbar-nav li a:hover {
-	color:  #e9c1aa;
+	color:  #F7DCCB;
 }
 
 #home {
-	background: url("../img/home.jpg") no-repeat center center fixed;
+	background: url("../img/home2.jpg") no-repeat center center fixed;
 	display: table;
 	height: 100%; 
 	position: relative;
@@ -79,14 +79,12 @@ html, body {
 .landing-text h1 {
 	font-size: 500%;
 	font-weight: 700;
-	padding-right: 20%;
 	color: black;
 	
 }
 .landing-text h3 {
 	font-size: 250%;
 	font-weight: 350;
-	padding-right: 20%;
 	color: black;
 }
 .landing-text h4 {
@@ -112,11 +110,11 @@ table{
 }
 
 table tr:nth-child(odd) {
-    background:#e9c1aa;
+    background:#F7DCCB;
 }
 
 table tr:nth-child(even) {
-    background: #badfd5;
+    background: #78d4d4;
 }
 
 .table td p {
@@ -129,11 +127,11 @@ table tr:nth-child(even) {
 	border-style: solid;
 	margin-top: 40px;
 	border-width: 5px;
-	border-color: #e9c1aa;
+	border-color: #F7DCCB;
 }
 
 #abtme {
-	background-color: #badfd5;
+	background-color: #78d4d4;
     margin: 10px;
     border-style: hidden;
     border-radius: 5px;
@@ -160,14 +158,14 @@ table tr:nth-child(even) {
 	overflow: auto;
 	height: 315px;
 	color: black;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 }
 .contactForm {
 	border-style: hidden;
 	padding: 5px;
 	border-radius: 10px;
 	color: black;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 }
 
 .contactForm form{
@@ -178,7 +176,7 @@ table tr:nth-child(even) {
 	overflow: auto;
 	height: 315px;
 	color: black;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 }
 
 .regForm {
@@ -187,7 +185,7 @@ table tr:nth-child(even) {
 	margin: 10px;
     border-radius: 10px;
 	color: black;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 }
 .regForm textarea{
 		width: 80%;
@@ -233,10 +231,10 @@ hr {
 	padding: 5px;
 	border-style: solid;
 	border-radius: 7.5px;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 }
 .linkCollect h4 {
-	background-color:#badfd5;
+	background-color:#78d4d4;
 	color:  black;
 }
 
@@ -249,13 +247,13 @@ hr {
 .linkCollect li:nth-child(odd) {
 	font-weight: bold;
 	padding: 5px;
-	background-color: #e9c1aa;
+	background-color: #F7DCCB;
 	color: black;
 }
 .linkCollect li:nth-child(even) {
 	font-weight: bold;
 	padding: 5px;
-	background-color: #fae0da;
+	background-color: #ACA497;
 	color: black;
 }
 
@@ -268,7 +266,7 @@ hr {
 	color: #1aa58e;
 }
 .linkCollect li a:hover {
-	color: #badfd5;
+	color: #78d4d4;
 }
 
 
@@ -279,7 +277,7 @@ hr {
 }
 
 .cntct .fab:hover {
-	color: #badfd5;
+	color: #78d4d4;
 	text-decoration: none;
 }
 
@@ -303,11 +301,11 @@ footer {
 .fas {
 	padding: 15px;
 	font-size: 25px;
-	color:  #badfd5;
+	color:  #78d4d4;
 }
 
 .fas:hover {
-	color: #e9c1aa;
+	color: #F7DCCB;
 	text-decoration: none;
 }
 
@@ -353,7 +351,7 @@ footer {
 	overflow: auto;
 	height: 315px;
 	color: black;
-	background-color: #badfd5;
+	background-color: #78d4d4;
 	margin: 20px;
 }
 .contactForm{
