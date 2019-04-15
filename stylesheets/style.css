@@ -72,7 +72,7 @@ html, body {
 	text-align: center;
 	vertical-align: middle;
 	color: white;
-	text-shadow: transparent;
+	text-shadow: #FFF 1px 0 10px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	
 }
